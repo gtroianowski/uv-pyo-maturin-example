@@ -1,0 +1,12 @@
+[project]
+name = "rust-library"
+version = "0.1.0"
+description = "Simple example of a rust library to demonstrate PyO3 capabilities with uv"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"

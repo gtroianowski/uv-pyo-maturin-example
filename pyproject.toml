@@ -1,0 +1,14 @@
+[project]
+name = "pyo3-maturin-example"
+requires-python = ">=3.11"
+version = "0.1.0"
+description = "Example of a python library using a rust library built with Maturin"
+readme = "README.md"
+dependencies = [
+    "rust-library",
+    "pytest"
+]
+
+[tool.uv.sources]
+rust-library = { path = "rust-library", editable = true }
+
